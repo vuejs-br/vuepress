@@ -13,11 +13,11 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 <div class="features">
   <div class="feature">
     <h2>Simplicidade Primeiro</h2>
-    <p>A configuração mínima com a estrutura do projeto centralizada no _markdown_ ajuda você a se concentrar na escrita.</p>
+    <p>A configuração mínima com a estrutura do projeto centralizada no markdown ajuda você a se concentrar na escrita.</p>
   </div>
   <div class="feature">
     <h2>Baseado em Vue</h2>
-    <p>Aproveite a experiência de desenvolver com Vue ) + webpack, use componentes Vue no _markdown_, e desenvolva temas personalizados com o Vue.</p>
+    <p>Aproveite a experiência de desenvolver com Vue ) + webpack, use componentes Vue no markdown e desenvolva temas personalizados com o Vue.</p>
   </div>
   <div class="feature">
     <h2>Performático</h2>
@@ -32,7 +32,7 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 yarn global add vuepress
 # OU npm install -g vuepress
 
-# crie um arquivo de _markdown_
+# crie um arquivo de markdown
 echo '# Hello VuePress' > README.md
 
 # comece a escrever

@@ -12,6 +12,11 @@ module.exports = ctx => ({
       lang: 'zh-CN',
       title: 'VuePress',
       description: 'Vue 驱动的静态网站生成器'
+    },
+    '/pt/': {
+      lang: 'pt-BR',
+      title: 'VuePress',
+      description: 'Gerador de site estático baseado em Vue'
     }
   },
   head: [
@@ -63,6 +68,20 @@ module.exports = ctx => ({
           '/zh/guide/': getGuideSidebar('指南', '深入'),
           '/zh/plugin/': getPluginSidebar('插件', '介绍', '官方插件'),
           '/zh/theme/': getThemeSidebar('主题', '介绍')
+        }
+      },
+      '/pt/': {
+        label: 'Português',
+        selectText: 'Idiomas',
+        ariaLabel: 'Selecione um idioma',
+        editLinkText: 'Edite essa página no GitHub',
+        lastUpdated: 'Última Atualização',
+        nav: require('./nav/pt'),
+        sidebar: {
+          '/pt/api/': getApiSidebar(),
+          '/pt/guide/': getGuideSidebar('Guia', 'Avançado'),
+          '/pt/plugin/': getPluginSidebar('Plugin', 'Introdução', 'Plugins Oficiais'),
+          '/pt/theme/': getThemeSidebar('Tema', 'Introdução'),
         }
       }
     }
